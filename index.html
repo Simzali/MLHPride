@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pride</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <h1>Pride Flag Keyboard</h1>
+  <p>Try to make pride flags by clicking the colored buttons in the order of the pride flag!</p>
+  <p>(If a flag has multiple shades of the same color use the same button for all the shades of that color!) </p>
+  <div class="flex-container">
+  <section class="Piano">
+    <audio id="red" src="red.mp3" preload="auto"></audio>
+    <audio id="blue" src="blue.mp3" preload="auto"></audio>
+    <audio id="orange" src="orange.mp3" preload="auto"></audio>
+    <audio id="yellow" src="yellow.mp3" preload="auto"></audio>
+    <audio id="green" src="green.mp3" preload="auto"></audio>
+    <audio id="purple" src="purple.mp3" preload="auto"></audio>
+    <audio id="black" src="black.mp3" preload="auto"></audio>
+    <audio id="white" src="white.mp3" preload="auto"></audio>
+    <audio id="brown" src="brown.mp3" preload="auto"></audio>
+    <audio id="browndark" src="browndark.mp3" preload="auto"></audio>
+    <audio id="pink" src="pink.mp3" preload="auto"></audio>
+    
+ 
+    
+     <div id = "redDiv"><button id="redButton" class="red" onclick="redClick()">red</button></div>
+     <div id = "orangeDiv"><button id="orangeButton" class="orange" onclick="orangeClick()">orange</button></div>
+     <div id = "yellowDiv"><button id="yellowButton" class="yellow" onclick="yellowClick()">yellow</button></div>
+     <div id = "greenDiv"><button id="greenButton" class="green" onclick="greenClick()">green</button></div>
+     <div id = "blueDiv"><div id = "blueDiv"> <button id="blueButton" class="blue" onclick="blueClick()">blue</button></div>
+     <div id = "purpleDiv"><button id="purpleButton" class="purple" onclick="purpleClick()">purple</button></div>
+     <div id = "blackDiv"><button id="blackButton" class="black" onclick="blackClick()">black</button></div>
+     <div id = "whiteDiv"><button id="whiteButton" class="white" onclick="whiteClick()">white</button></div>
+     <div id = "brownDiv"><button id="brownButton" class="brown"onclick="brownClick()">brown</button></div>
+     <div id = "browndarkDiv"><button id="browndarkButton" class="browndark"onclick="browndarkClick()">brown</button></div>
+     <div id = "pinkDiv"><button id="pinkButton" class="pink"onclick="pinkClick()"> pink</button></div>
+ </section>
+<section id = "results">
+      <!--<h3 id="sequence"></h3>-->
+      <div id="colorContainer"></div>
+      <button id = "reset" onclick="reset()">Reset</button>
+</section>
+</div>
+<section class="flagFrame">
+<iframe name = "flagFrame" height="500" width="100%" title="Flag Details"></iframe>
+</section>
+
+</body>
+
+</html>
